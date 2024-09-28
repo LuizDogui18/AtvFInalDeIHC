@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciador de Metas de Leitura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gerenciador de Metas de Leitura</h1>
+    <h3>Criar Meta de Leitura</h3>
+    <form id="metaForm">
+      <label for="livro">Livro:</label><br>
+      <input type="text" id="livro" name="livro" required><br>
+      <label for="paginas">Número de Páginas:</label><br>
+      <input type="number" id="paginas" name="paginas" required><br>
+      <label for="dias">Dias para Concluir:</label><br>
+      <input type="number" id="dias" name="dias" required><br>
+      <button type="submit">Criar Meta</button>
+    </form>
+
+    <h3>Suas Metas de Leitura</h3>
+    <div id="metasContainer"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

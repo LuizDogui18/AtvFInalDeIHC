@@ -1,0 +1,25 @@
+{
+  "metas": [
+    {
+      "id": 1,
+      "livro": "1984",
+      "paginas": 300,
+      "dias": 30,
+      "progresso": 0
+    },
+    {
+      "id": 2,
+      "livro": "A Revolução dos Bichos",
+      "paginas": 120,
+      "dias": 15,
+      "progresso": 0
+    },
+    {
+      "id": "8b23",
+      "livro": "O Ateneu",
+      "paginas": 50,
+      "dias": 30,
+      "progresso": 0
+    }
+  ]
+}
